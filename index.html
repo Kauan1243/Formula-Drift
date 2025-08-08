@@ -9,10 +9,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
     <title>Formula Drift</title>
-    <a href="styel.css"></a>
+    <style>
+        .categoriavideos {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding: 10px 0;
+        }
+        .categoriavideos a {
+            flex: 0 0 auto;
+        }
+        .categoriavideos img {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .categoriavideos img:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
     <header>Formula Drift</header>
     <h1>Formula Drift</h1>
+
+    <section>
+        <h2>Catálogo</h2>
+        <div class="categoriavideos">
+            <a href="https://www.youtube.com/watch?v=kRMlEb5Cd0Y" target="_blank">
+                <img src="https://img.youtube.com/vi/kRMlEb5Cd0Y/maxresdefault.jpg" alt="Drift 1">
+            </a>
+            <a href="https://www.youtube.com/watch?v=jM5Xi1-OrW4" target="_blank">
+                <img src="https://img.youtube.com/vi/jM5Xi1-OrW4/maxresdefault.jpg" alt="Drift 2">
+            </a>
+            <a href="https://www.youtube.com/watch?v=-Cpzw6UrtYk" target="_blank">
+                <img src="https://img.youtube.com/vi/-Cpzw6UrtYk/maxresdefault.jpg" alt="Drift 3">
+            </a>
+            <a href="https://www.youtube.com/watch?v=_llp793I4qE" target="_blank">
+                <img src="https://img.youtube.com/vi/_llp793I4qE/maxresdefault.jpg" alt="Drift 4">
+            </a>
+        </div>
+    </section>
 </body>
 </html>
