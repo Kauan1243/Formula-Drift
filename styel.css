@@ -4,7 +4,22 @@ body{
     font-family: "Chakra Petch", sans-serif;
    margin: 50px;}
 
-h1{font-size: 40px;}
+h1{font-size: 80px;
+    border-bottom: solid 2px rgb(205, 8, 8);
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(205, 8, 8);}
+
+.chamada{
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+    margin-right: 5%;
+}
 
 p{font-size: 20px;}
 
